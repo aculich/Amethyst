@@ -1,8 +1,12 @@
 {
     "layouts": [
-        "tall",
+        "floating",
+        "bsp",
         "wide",
         "fullscreen",
+        "widescreen-tall",
+        "tall",
+        "row",
         "column"
     ],
     "Valid modifiers are": [
@@ -12,13 +16,15 @@
         "command"
     ],
     "mod1": [
-        "option",
-        "shift"
+        "control",
+        "shift",
+        "command"
     ],
     "mod2": [
-        "option",
+        "control",
         "shift",
-        "control"
+        "command",
+        "option"
     ],
     "screens": 4,
     "cycle-layout": {
@@ -31,19 +37,19 @@
     },
     "select-tall-layout": {
         "mod": "mod1",
-        "key": "a"
-    },
-    "select-wide-layout": {
-        "mod": "mod1",
         "key": "s"
+    },
+    "select-floating-layout": {
+        "mod": "mod1",
+        "key": "f"
     },
     "select-fullscreen-layout": {
         "mod": "mod1",
-        "key": "d"
+        "key": "a"
     },
     "select-column-layout": {
         "mod": "mod1",
-        "key": "f"
+        "key": "d"
     },
     "focus-screen-1": {
         "mod": "mod1",
@@ -79,11 +85,11 @@
     },
     "shrink-main": {
         "mod": "mod1",
-        "key": "h"
+        "key": "["
     },
     "expand-main": {
         "mod": "mod1",
-        "key": "l"
+        "key": "]"
     },
     "increase-main": {
         "mod": "mod1",
@@ -94,11 +100,11 @@
         "key": "."
     },
     "focus-ccw": {
-        "mod": "mod1",
+        "mod": "mod2",
         "key": "j"
     },
     "focus-cw": {
-        "mod": "mod1",
+        "mod": "mod2",
         "key": "k"
     },
     "swap-screen-ccw": {
@@ -111,11 +117,11 @@
     },
     "swap-ccw": {
         "mod": "mod2",
-        "key": "j"
+        "key": "l"
     },
     "swap-cw": {
         "mod": "mod2",
-        "key": "k"
+        "key": ";"
     },
     "swap-main": {
         "mod": "mod1",
